@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="4" skipped="0" tests="15" time="19.756" timestamp="2024-01-18T07:50:06.523402" hostname="KITAEC"><testcase classname="test_lesson_pets" name="test_get_pet" time="1.460"><failure message="assert 404 == 200&#10; +  where 404 = &lt;Response [404]&gt;.status_code">def test_get_pet():
+        response = requests.get('https://petstore.swagger.io/v2/pet/1')
+&gt;       assert response.status_code == 200
+E       assert 404 == 200
+E        +  where 404 = &lt;Response [404]&gt;.status_code
+
+test_lesson_pets.py:7: AssertionError</failure></testcase><testcase classname="test_lesson_pets" name="test_create_pet" time="1.216" /><testcase classname="test_lesson_pets" name="test_update_pet" time="1.231" /><testcase classname="test_lesson_pets" name="test_delete_pet" time="1.119"><failure message="assert 404 == 200&#10; +  where 404 = &lt;Response [404]&gt;.status_code">def test_delete_pet():
+        response = requests.delete('https://petstore.swagger.io/v2/pet/0')
+&gt;       assert response.status_code == 200
+E       assert 404 == 200
+E        +  where 404 = &lt;Response [404]&gt;.status_code
+
+test_lesson_pets.py:23: AssertionError</failure></testcase><testcase classname="test_lesson_pets" name="test_find_by_status_pet" time="1.525" /><testcase classname="test_lesson_pets" name="test_get_inventory" time="1.226" /><testcase classname="test_lesson_pets" name="test_order_pet" time="1.226" /><testcase classname="test_lesson_pets" name="test_get_order" time="1.222"><failure message="assert 404 == 200&#10; +  where 404 = &lt;Response [404]&gt;.status_code">def test_get_order():
+        response = requests.get('https://petstore.swagger.io/v2/store/order/0')
+&gt;       assert response.status_code == 200
+E       assert 404 == 200
+E        +  where 404 = &lt;Response [404]&gt;.status_code
+
+test_lesson_pets.py:43: AssertionError</failure></testcase><testcase classname="test_lesson_pets" name="test_delete_order" time="1.215"><failure message="assert 404 == 200&#10; +  where 404 = &lt;Response [404]&gt;.status_code">def test_delete_order():
+        response = requests.delete('https://petstore.swagger.io/v2/store/order/0')
+&gt;       assert response.status_code == 200
+E       assert 404 == 200
+E        +  where 404 = &lt;Response [404]&gt;.status_code
+
+test_lesson_pets.py:47: AssertionError</failure></testcase><testcase classname="test_lesson_pets" name="test_create_user" time="1.116" /><testcase classname="test_lesson_pets" name="test_get_user" time="1.227" /><testcase classname="test_lesson_pets" name="test_update_user" time="1.227" /><testcase classname="test_lesson_pets" name="test_delete_user" time="1.021" /><testcase classname="test_lesson_pets" name="test_login_user" time="1.227" /><testcase classname="test_lesson_pets" name="test_logout_user" time="1.227" /></testsuite></testsuites>
