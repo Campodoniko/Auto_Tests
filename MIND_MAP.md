@@ -1,0 +1,21 @@
+- Petstore API
+    - Pets
+        - Create pet
+        - Get pet
+        - Update pet
+        - Delete pet
+        - Find pet by status
+    - Store
+        - Get inventory
+        - Order pet
+        - Get order
+        - Delete order
+    - Users
+        - Create user
+        - Read user
+        - Update user
+        - Delete user
+        - User login
+        - User logout
+     
+Отчет о тестировании - report.xml
